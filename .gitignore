@@ -1,0 +1,13 @@
+Java/PracticasJava/PracticasJava/PracticasJava/classes/
+
+# Se simplifica con comodines
+**/classes/*
+**/.data/**
+**/deploy/*
+**/temp/*
+**/results/*
+**/*.tmp
+**/*.re
+
+# Archivos de MS Office temporales
+**/*~$-*.*
