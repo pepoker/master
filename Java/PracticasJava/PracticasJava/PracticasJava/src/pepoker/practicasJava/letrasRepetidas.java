@@ -13,7 +13,7 @@ public class letrasRepetidas {
         System.out.println(tieneLetraRepetida("hola"));
     }
     
-    private static boolean tieneLetraRepetida(String palabra){
+    protected static boolean tieneLetraRepetida(String palabra){
         Set<String> setLetras = new HashSet<String>();
                 
         for (int i =0; i<palabra.length(); i++){

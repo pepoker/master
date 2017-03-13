@@ -58,119 +58,31 @@
       <string v="oracle.adfdtinternal.model.ide.settings.ADFMSettings/adfmContentSet"/>
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
    </list>
-   <value n="defaultPackage" v="pepoker.practicasJava"/>
-   <hash n="oracle.adfdtinternal.model.ide.settings.ADFMSettings">
-      <hash n="adfmContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
-         <list n="url-path">
-            <url path="adfmsrc/"/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.bm.commonIde.data.project.ModelerProjectSettings">
-      <hash n="modelersContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
-         <list n="url-path">
-            <url path="model/"/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.ide.model.ResourcePaths">
-      <hash n="resourcesContentSet">
-         <list n="pattern-filters">
-            <string v="+*"/>
-         </list>
-         <list n="url-path">
-            <url path="."/>
-         </list>
-      </hash>
+   <value n="defaultPackage" v="practicasjavaunittest"/>
+   <hash n="oracle.ide.model.DependencyConfiguration">
+      <list n="dependencyList">
+         <hash>
+            <hash n="dependable">
+               <url n="sourceOwnerURL" path="../PracticasJava.jws"/>
+               <url n="sourceURL" path="../PracticasJava/PracticasJava.jpr"/>
+            </hash>
+            <value n="recognizerId" v="oracle.jdeveloper.library"/>
+         </hash>
+      </list>
    </hash>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
+         <string v="Ant"/>
          <string v="Java"/>
-         <string v="Maven"/>
-         <string v="XML"/>
+         <string v="JavaBeans"/>
+         <string v="Swing/AWT"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
       <value n="internalEncoding" v="Cp1252"/>
       <value n="webIANAEncoding" v="windows-1252"/>
    </hash>
-   <hash n="oracle.jdeveloper.maven.compiler.MavenConfiguration">
-      <url n="pomfileURL" path="pom.xml"/>
-   </hash>
-   <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="PracticasJava-PracticasJava-webapp"/>
-      <value n="j2eeWebContextRoot" v="PracticasJava-PracticasJava-context-root"/>
-      <hash n="webContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
-         <list n="url-path">
-            <url path="public_html/"/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.jdeveloper.model.PathsConfiguration">
-      <hash n="javaContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
-         <list n="url-path">
-            <url path="src/"/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.jdeveloper.offlinedb.model.OfflineDBProjectSettings">
-      <hash n="offlineDBContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
-         <list n="url-path">
-            <url path="database/"/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.jdevimpl.config.JProjectLibraries">
-      <list n="exportedReferences">
-         <hash>
-            <value n="id" v="JUnit 4 Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-      </list>
-      <list n="libraryReferences">
-         <hash>
-            <value n="id" v="JUnit 4 Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-      </list>
-   </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">
       <url n="outputDirectory" path="classes/"/>
-   </hash>
-   <hash n="oracle.mds.internal.dt.ide.MDSLibraryCustCSProvider">
-      <hash n="mdsContentSet">
-         <list n="pattern-filters">
-            <string v="+mdssys/cust/**"/>
-            <string v="+**/mdssys/cust/**"/>
-         </list>
-         <list n="url-path">
-            <url path="libraryCustomizations/"/>
-         </list>
-      </hash>
-   </hash>
-   <hash n="oracle.toplink.workbench.addin">
-      <hash n="toplinkContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
-         <list n="url-path">
-            <url path="toplink/"/>
-         </list>
-      </hash>
    </hash>
 </jpr:project>

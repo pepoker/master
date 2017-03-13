@@ -3,8 +3,10 @@ package pepoker.practicasJava;
 public class Fibonnaci {
     
     public static void main(String[] args){
-        int objetivo = 20000000;
-        
+        System.out.println(sumaFibonnaciUntil(2000000));    
+    }
+    
+    public static int sumaFibonnaciUntil(int objetivo){
         int num1 = 0;
         int num2 = 1;
         int temp = 0;
@@ -17,12 +19,11 @@ public class Fibonnaci {
                 break;
             
             if(temp%2==0){
-                System.out.println("par"+temp);
                 sumPar +=temp;
             }
         }
         
-        System.out.println(sumPar);    
+        return sumPar;    
     }
     
 }
