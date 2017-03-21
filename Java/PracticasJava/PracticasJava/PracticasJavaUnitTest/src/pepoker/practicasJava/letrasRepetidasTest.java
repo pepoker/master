@@ -33,4 +33,9 @@ public class letrasRepetidasTest {
         assertTrue("Con holo", tieneLetrasRepetidasConParametro("holo"));
         assertTrue("Con adfydretyerfv", tieneLetrasRepetidasConParametro("adfydretyerfv"));
     }
+    
+    @Test (expected = NullPointerException.class)
+    public void testTieneLetrasRepetidasConNull() {
+        assertTrue(tieneLetrasRepetidasConParametro(null));
+    }
 }
