@@ -23,3 +23,13 @@ Comandos git
 	
 -git checkout
 	para cambiarse de branch
+	
+-git push
+	enciar cambios al repositorio remoto
+	git push -u origin <nombre del branch>    
+		*solo cuando no existe el branch en el remoto
+	git push cuando ya existe el remoto
+		
+-git pull
+	para traerse unos cambios
+	
