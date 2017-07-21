@@ -1,2 +1,2 @@
 # master
-repositorio principal... todo surge con una idea
+repositorio principal para practicas y desarrollos en java
