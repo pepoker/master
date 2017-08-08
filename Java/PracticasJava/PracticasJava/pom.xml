@@ -26,4 +26,10 @@
       <type>jar</type>
     </dependency>
   </dependencies>
+  <parent>
+    <groupId>com.oracle.adf</groupId>
+    <artifactId>adf-parent</artifactId>
+    <version>12.2.1-2-0</version>
+    <relativePath></relativePath>
+  </parent>
 </project>
