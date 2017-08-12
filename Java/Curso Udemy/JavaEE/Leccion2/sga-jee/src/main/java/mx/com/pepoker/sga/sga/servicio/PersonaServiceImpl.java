@@ -15,13 +15,13 @@ import mx.com.pepoker.sga.sga.domain.Persona;
  * @author eduardo
  */
 @Stateless
-public class PersonaServiceImpl implements PersonaServiceRemote{
+public class PersonaServiceImpl implements PersonaServiceRemote, PersonaService{
 
     @Override
     public List<Persona> listarPersonas() {
         List<Persona> personas = new ArrayList<>();
         personas.add(new Persona(1,"Juan","Perez","Suarez","jperez@gmail.com","6141111111"));
-        personas.add(new Persona(1,"Martha","Suarez","Kimenez","msuarez@gmail.com","6142222222"));
+        personas.add(new Persona(2,"Martha","Suarez","Kimenez","msuarez@gmail.com","6142222222"));
         
         return personas;
     }
@@ -50,5 +50,6 @@ public class PersonaServiceImpl implements PersonaServiceRemote{
     public void eliminarPersona(Persona persona) {
         
     }
+
     
 }
