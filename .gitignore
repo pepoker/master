@@ -8,6 +8,10 @@ Java/PracticasJava/PracticasJava/PracticasJava/classes/
 **/results/*
 **/*.tmp
 **/*.re
+**/nbproject/**
+**/target/**
+
 
 # Archivos de MS Office temporales
 **/*~$-*.*
+
