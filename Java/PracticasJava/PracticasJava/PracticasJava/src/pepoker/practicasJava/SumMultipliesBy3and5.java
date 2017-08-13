@@ -11,6 +11,19 @@ package pepoker.practicasJava;
  */
 public class SumMultipliesBy3and5 {
     public static int getSumNumberMultipliesBy3and5(int numero){
-        return 0;
+        int resp = 0;
+        
+        for(int i= 0; i< numero; i++){
+            if(i%3 == 0 || i%5== 0){
+                resp+=i;
+            }
+        }
+        
+        return resp;
     }
+    
+    public static void main(String[] args) {
+        System.err.println(SumMultipliesBy3and5.getSumNumberMultipliesBy3and5(10));
+    }
+            
 }
