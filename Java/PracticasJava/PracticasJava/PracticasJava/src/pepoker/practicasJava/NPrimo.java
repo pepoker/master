@@ -2,7 +2,7 @@ package pepoker.practicasJava;
 
 
 public class NPrimo {
-    protected static int getNPrime(int nPrime) {
+    public static int getNPrime(int nPrime) {
         int contPrimo = 0;
         int num = 1;
         while (true) {
