@@ -13,7 +13,7 @@ import org.junit.runners.Suite;
  * @author eduardo
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({test.java.pepoker.practicas.test.FibonnaciTest.class, test.java.pepoker.practicas.test.letrasRepetidasTest.class, test.java.pepoker.practicas.test.LargestPalindromeTest.class, test.java.pepoker.practicas.test.NPrimoTest.class, test.java.pepoker.practicas.test.SumMultipliesBy3and5Test.class})
+@Suite.SuiteClasses({test.java.pepoker.practicas.test.FibonnaciTest.class, test.java.pepoker.practicas.test.letrasRepetidasTest.class, test.java.pepoker.practicas.test.LargestPalindromeTest.class, test.java.pepoker.practicas.test.NPrimoTest.class, test.java.pepoker.practicas.test.SumMultipliesBy3and5Test.class, test.java.pepoker.practicas.test.SmallestDividedTest.class})
 public class AllTestSuite {
     
 }
